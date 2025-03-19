@@ -43,7 +43,7 @@ On another turn.
 ...
 
 
-### Technologies used
+## Technologies used
 
 A comprehensive list of all the external software and technologies used or considered to use in developing the game.
 NOTE: this was the first considerations, newer versions will have already established what to use. 🔊 
