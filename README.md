@@ -51,9 +51,10 @@ NOTE: this was the first considerations, newer versions will have already establ
 #### Game engine 🎮
 
 1. kaplay.js 🦎
-2. love2d framework ♥
-3. Godot
-4. Unity
+2. Any other js/ts game framework
+3. love2d framework ♥
+4. Godot
+5. Unity
  
 #### Hosting (web + server) 💾
 *All using Cloudflare DNS*
