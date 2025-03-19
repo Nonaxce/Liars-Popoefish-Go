@@ -55,9 +55,10 @@ NOTE: this was the first considerations, newer versions will have already establ
 3. Godot
 4. Unity
  
-#### Hosting 💾
-
-1. Cloudflare pages (if website) + Firebase (server)
+#### Hosting (web + server) 💾
+*All using Cloudflare DNS*
+1. Vercel + Supabase
+2. Cloudflare pages + Google Firebase
  
 
 
