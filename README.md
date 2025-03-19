@@ -1,4 +1,4 @@
-# Liars-Popoefish-Go
+# 🐟 Liars-Popoefish-Go 🃏
 A little card game created by a group of dorks for the purpose of wanting to create one (so compelling).
 
 ## Rules
