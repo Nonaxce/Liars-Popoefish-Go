@@ -1,7 +1,7 @@
 # 🐟 Liars-Popoefish-Go 🃏
 A little card game created by a group of dorks for the purpose of wanting to create one for fun :D.
 
-## Rules
+## Rules 🎲
 
 * All players have 2 lives.
 * All players are given 5 cards ( 3 from go fish and 2 from poker).
@@ -43,7 +43,7 @@ On another turn.
 ...
 
 
-## Technologies used
+## Technologies used 🛠
 
 A comprehensive list of all the external software and technologies used or considered to use in developing the game.
 NOTE: this was the first considerations, newer versions will have already established what to use. 🔊 
