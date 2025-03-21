@@ -5,3 +5,5 @@ import "./loader.js"; // This will run the content of the file, importing all as
 k.scene("play", () => {
     // play scene code
 });
+
+k.go("play");
