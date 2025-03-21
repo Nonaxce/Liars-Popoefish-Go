@@ -1,12 +1,12 @@
 
 body {
     background-color: #12171b;
-    width: 100dvw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 
 #gameCanvas {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: auto
 }
