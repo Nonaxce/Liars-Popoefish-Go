@@ -5,8 +5,13 @@ import "./loader.js"; // This will run the content of the file, importing all as
 
 import { Deck } from "./classes/Deck.js";
 
+const deck = new Deck()
+deck.initDeck();
 
 
+const A = deck.takeACard()
+console.log(A)
+console.log(deck.get());
 
 
 // rest of scenes code
@@ -19,14 +24,10 @@ k.scene("play", () => {
         });
     })
 
-
-    const deck = new Deck()
-    deck.initDeck();
-    console.log(deck.get());
     
     
-
+    
 });
 
 
-k.go("play");
+//k.go("play");

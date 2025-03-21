@@ -36,26 +36,31 @@ export class Deck {
         }
     }
 
+    takeACard() {
+        if (this.#deck.length <= 0) return;
+        return this.#deck.shift();
+    }
+
     shuffle(reps = 1) {
         const s_deck = this.#deck;
-        for(let k = 0; k < reps; k++) {
-            for (let i = s_deck.length; i > 0; i--) {
-            
-                if (i === s_deck.length) {
-                    continue;
-                }
-    
-                
-                // swap two cards randomly
-                const randIdx = Math.floor(Math.random() * s_deck.length);
-                console.log(randIdx);
-                // swap the cards
-                const temp = s_deck[randIdx];
-                s_deck[randIdx] = s_deck[i];
-                s_deck[i] = temp;
-    
+       
+        for (let i = s_deck.length; i > 0; i--) {
+        
+            if (i === s_deck.length) {
+                continue;
             }
+
+            
+            // swap two cards randomly
+            const randIdx = Math.floor(Math.random() * s_deck.length);
+            console.log(randIdx);
+            // swap the cards
+            const temp = s_deck[randIdx];
+            s_deck[randIdx] = s_deck[i];
+            s_deck[i] = temp;
+
         }
+        
         
         this.#deck = s_deck;
     }
