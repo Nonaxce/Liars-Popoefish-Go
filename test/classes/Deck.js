@@ -8,6 +8,14 @@ class Card {
         this.#suit = suit;
         this.#type = type;
     }
+
+    suit() {
+        return this.#suit;
+    }
+
+    type() {
+        return this.#type;
+    }
 }
 
 
@@ -21,6 +29,7 @@ export class Deck {
     get() {
         return this.#deck;
     }
+
 
     initDeck() {
         const cardSuits = ["clubs", "diamonds", "hearts", "spades"];
@@ -36,9 +45,19 @@ export class Deck {
         }
     }
 
-    takeACard() {
-        if (this.#deck.length <= 0) return;
-        return this.#deck.shift();
+    take(amount = 1) {
+        // avoid out of bound accessing
+        if (this.#deck.length - amount < 0) return;
+        // default to 1 if value is pathetic
+        if (amount <= 0) amount = 1;
+        // return an obj if amount is 1
+        if (amount === 1) return this.#deck.shift();        
+        // return array if >1    
+        const na = [];
+        for(let i = 0; i < amount; i++) {
+            na.push(this.#deck.shift());
+        };
+        return na;
     }
 
     shuffle() {

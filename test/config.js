@@ -1,8 +1,8 @@
 export const config = {
     canvas: document.getElementById("gameCanvas"),
-    width: 320,
-    height: 240,
-    scale: 3,
+    width: 640,
+    height: 360,
+    scale: 2,
     background: [0, 0, 0],
     stretch: false,
     letterbox: false,
