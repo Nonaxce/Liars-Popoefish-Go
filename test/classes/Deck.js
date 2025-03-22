@@ -15,7 +15,7 @@ class Card {
 export class Deck {
     #deck = [];
     constructor() {
-        //
+        this.initDeck()
     }
 
     get() {
@@ -41,7 +41,7 @@ export class Deck {
         return this.#deck.shift();
     }
 
-    shuffle(reps = 1) {
+    shuffle() {
         const s_deck = this.#deck;
        
         for (let i = s_deck.length; i > 0; i--) {
