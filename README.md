@@ -56,11 +56,17 @@ NOTE: this was the first considerations, newer versions will have already establ
 4. Godot
 5. Unity?
 
+#### Frameworks (for server com) 
+
+1. React (heavy)
+2. Vue (lightweight at least)
+
 #### Hosting (web + server) 💾
 
 _All using Cloudflare DNS_
 
 1. Vercel + Supabase
 2. Cloudflare pages + Google Firebase
+3. Just Firebase 
 
 > You may lie, but when fate appoints the witted, the truth shall prevail... or not.
