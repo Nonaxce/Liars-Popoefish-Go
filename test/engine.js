@@ -1,6 +1,6 @@
 "use strict";
 
-import kaboom from "./libs/kaplay.mjs";
+import kaplay from "./libs/kaplay.mjs";
 import { config } from "./config.js";
 
-export const k = kaboom(config);
+export const k = kaplay(config);
