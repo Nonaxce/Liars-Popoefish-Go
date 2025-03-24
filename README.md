@@ -69,4 +69,11 @@ _All using Cloudflare DNS_
 2. Cloudflare pages + Google Firebase
 3. Just Firebase 
 
+#### Other tech
+
+1. Socket.io? (server com)
+2. Expressjs
+
+should i even use typescript?...
+
 > You may lie, but when fate appoints the witted, the truth shall prevail... or not.
